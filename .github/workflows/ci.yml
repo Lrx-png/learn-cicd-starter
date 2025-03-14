@@ -19,5 +19,4 @@ jobs:
           go-version: "1.23.0"
 
       - name: Run Test
-        working-directory: internal/auth
-        run: go ./...
+        run: go test  ./internal/...
